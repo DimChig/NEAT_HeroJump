@@ -1,25 +1,30 @@
 # NEAT_HeroJump
-Python 2d game environment for self-learning NEAT algorithm for evolving arbitrary neural networks
 
-About project:
-- This was my first big python NEAT project
-- I created this self-learning AI to see if it can learn hwo to play this game
-- I was 15 years old (10th grade)
-- It took me around 3 week to make it (2-3 hours a day)
-- I used python library neat, matplotlib and pickle for it
-- All of collisions, camera movements were done from scratch by myself
-- Around 600 lines of code
+NEAT_HeroJump is a 2D game environment built in Python for experimenting with the NEAT algorithm, allowing neural networks to evolve and learn how to play the game.
 
-Game goal:
-- Calculate a perfect angle (between -1 and 1, that converts to degrees later) to jump from one pillar to another
-- Inputs that are given to neural network each jumps are: position Y, next pillar position Y and distance by X.
-- After around 2k epochs it learned how to jump perfectly, and that was very surprising and cool!
-This was a very good project for me to learn and understand python NEAT algorithm
+## About the Project
 
-Gameplay screenshots:
+- **Purpose**: Created to explore self-learning AI and test if a neural network could learn the game mechanics.
+- **Background**: My first major NEAT project in Python, developed when I was 15 years old (10th grade).
+- **Development Time**: Built over about 3 weeks, working 2-3 hours daily.
+- **Libraries Used**: `neat`, `matplotlib`, and `pickle`.
+- **Technical Details**: Custom collision handling and camera movement implemented from scratch.
+- **Code Structure**: The project contains around 600 lines of code.
 
-![](screenshots/screen1.jpg?raw=true)
-![](screenshots/screen2.jpg?raw=true)
-![](screenshots/screen3.jpg?raw=true)
-![](screenshots/screen4.jpg?raw=true)
-![](screenshots/screen5.jpg?raw=true)
+## Game Goal
+
+- **Objective**: Calculate the optimal angle (between -1 and 1, later converted to degrees) to jump from one pillar to the next.
+- **Neural Network Inputs**: For each jump, the neural network receives:
+  - Current Y position
+  - Next pillar’s Y position
+  - Horizontal distance to the next pillar (X-axis)
+- **Training Results**: After around 2,000 epochs, the AI learned to jump accurately, demonstrating the power of the NEAT algorithm.
+
+This project was an excellent way to learn and apply the NEAT algorithm in Python.
+
+## Gameplay Screenshots
+
+![Gameplay Screenshot 1](screenshots/screen1.jpg?raw=true)
+![Gameplay Screenshot 2](screenshots/screen2.jpg?raw=true)
+![Gameplay Screenshot 3](screenshots/screen3.jpg?raw=true)
+![Gameplay Screenshot 4](screenshots/screen4.jpg?raw=true)
